@@ -1,0 +1,175 @@
+1.- Crear un algoritmo en pseudoCódigo que pida por teclado e imprima si es mayor o igual a 10
+
+INICIO
+
+1ºMostrar ¨introducir un numero (ejemplo: 1, 2, 3 …)
+2ºingresar dato numérico 
+3ºvariable DN
+4ºverificar DN 
+5ºSi dato numérico es >= a 10 
+6ºmostrar ¨su numero es mayor o igual a 10¨
+7ºsi Dato numérico es < a 10 
+8ºmostrar ¨su numero es menor a 10 ¨
+
+FIN
+
+2.- Crea un algoritmo en pseudoCódigo que solicite la velocidad de un auto y determine si excedió La velocidad máxima permitida (50Km)
+
+INICIO
+
+1ºMostrar ¨introducir velocidad del vehículo (en km)
+2ºIngresar dato numérico 
+3ºVariable DN
+4ºVerificar DN
+5ºSi dato numérico es > a 50km
+6ºmostrar ¨auto a exceso de velocidad¨
+7ºsi dato numérico <= a 50km
+8ºmostrar ¨vehículo sin exceso de velocidad¨
+
+FIN
+
+3.- Crea un algoritmo en PseudoCódigo que calcule la potencia de 2 números que deben ser ingresados por teclado
+
+INICIO
+
+1ºmostrar¨introducir base numerica¨
+2ºingresar primer dato numerico
+3ºVariable BN
+4ºVerificar BN
+5ºmostrar ¨introducir exponente numerico¨
+6ºingresar segundo dato numerico
+7ºvariable EN
+8ºVerificar EN
+9º BN**EN= resultado potencia 
+10ºmotrar¨resultado potencia¨
+
+FIN
+
+4.- El agua se congela a los cero grados. Solicitar se ingrese la temperatura actual y determine si el agua se congelará o no
+
+INICIO
+
+1ºmostrar¨introducir grados de temperatura del agua
+2ºingresar dato numerico
+3ºvariable Temperatura Agua 
+4ºVerificar TA
+5ºsi TA <= a 0
+6ºmostrar¨el agua se congelara¨
+7ºsi TA > a 0 
+8ºmostrar¨temperatura alta no se congelara el agua¨
+
+FIN
+
+5.- Pedro tiene 21 años. Solicite por teclado la edad de una persona y determine si es igual a la edad de Pedro
+
+INICIO
+
+1ºmostrar¨introducir edad (ejemplo: 20,30,24…)
+2ºingresar dato numerico
+3ºvariable edad 
+4ºverificar edad
+5ºsi edad=21 
+6ºmostrar¨edad igual a la de Pedro¨
+7ºsi edad es <> a 21
+8ºmostrar¨edad no es igual a la de Pedro¨
+
+FIN
+
+6.- Realice un algoritmo que ingrese el diámetro de un círculo y la longitud de un lado de un cuadrado y diga por pantalla
+Si el círculo puede ser contenido dentro del cuadrado de manera íntegra. Es decir:
+
+
+1ºmostrar¨ingresar diámetro de circulo(cm)¨
+2ºintroducir dato numerico
+3ºvariable ¨Diámetro Circulo
+4ºverificar DC
+5ºmostrar¨ingresar longitud de lado de cuadrado¨
+6ºintroducir 2 dato numerico
+7ºvariable ¨Longitud Cuadrado¨
+8ºverificar LC
+9ºsi DC es <= a LC
+10ºmostrar¨el círculo puede ser contenido dentro del cuadrado de manera íntegra¨
+11ºsi DC es > a LC 
+12ºmostrar¨el círculo NO puede ser contenido dentro del cuadrado de manera íntegra¨
+
+FIN
+
+7.- Realice un algoritmo en pseudocódigo que dada las 3 notas parciales de un estudiante (ingresar por teclado), calcule su promedio e indique si el estudiante aprobó la asignatura (promedio debe ser mayor o igual a 4) 
+
+1ºmostrar¨ingresar primera nota¨
+2ºintroducir primer dato numerico 
+3ºvariable ¨Nota 1¨
+4ºverificar Nota 1
+5ºmostrar¨ingresar segunda nota¨
+6ºintroducir¨segundo dato numerico¨
+7ºvariable ¨Nota 2¨
+8ºverificar Nota 2
+9ºmostrar¨ingresar tercera nota¨
+10ºintroducir¨tercer dato numerico¨
+11ºvariable ¨Nota 3¨
+12ºverificar Nota 3
+13ºsumar Nota1 + Nota 2 + Nota 3 = resultado suma
+14º resultado suma/3 = promedio
+15ºsi ¨promedio¨ es >= a 4 
+16ºmostrar¨aprobaste la asignatura con ¨Promedio¨
+17ºsi ¨promedio¨ es < a 4 
+18ºmostrar¨reprobaste la asignatura con ¨promedio¨
+
+FIN
+
+8.- Realice un algoritmo en pseudocódigo que calcule lo siguiente: Tu salario mensual es de $1,000,000. Se pide ingresar por teclado el monto total mensual gastado en alimento, vestuario y entretención y determinar si tus gastos fueron menor a tu ingreso mensual
+
+INICIO
+
+Constante: salario mensual $1.000.000
+
+1ºmostrar¨ingresar monto mensual gastado en alimento
+2ºintroducir primer dato numerico
+3ºvariable ¨Gasto Alimento¨
+4ºverificar GA
+5ºmostrar¨ingresar monto mensual gastado en vestuario¨
+6ºintroducir segundo dato numerico
+7ºvariable ¨Gasto Vestuario¨
+8ºverificar GV
+9ºmostrar¨ingresar monto mensual gastado en entretencion¨
+10ºintroducir tercer dato numerico
+11ºvariable ¨Gasto Entretencion¨
+12ºverificar GE
+13º Sumar GA + GV + GE = Gastos Totales Mensuales 
+14º si GTM es > a SM
+15ºmostrar¨tus gastos han sido mayores a tu salario mensual¨
+16ºsi GTM es <= a SM 
+17ºmostrar¨tus gastos has sido menor o igual a tu salario mensual¨
+
+FIN
+
+9.- Realice un algoritmo en pseudocódigo que permita ingresar el monto total Neto de facturación mensual y determine el valor del IVA de ese monto
+(El % del IVA debe ser ingresado por teclado)
+Total Neto corresponde a un valor sin IVA incluido
+
+1ºmostrar¨ingresar el monto total Neto de facturación mensual(en pesos$)
+2ºintroducir primer dato numerico
+3ºvariable Total neto facturación mensual 
+4ºverificar Total neto facturación mensual
+5ºmostrar¨ingresar porcentaje del iva¨
+6ºintroducir segundo dato numerico
+7ºvariable IVA 
+8ºverificar IVA
+9ºmultiplicar IVA * TNFM=resultado
+10ºdividir resultado/100 = Valor IVA del monto 
+11ºmostrar¨Valor IVA del monto¨
+ 
+FIN
+
+10.- Una persona cualquiera, gasta 10 calorías por cada KM que recorre. Realice un algoritmo en pseudocódigo que permita ingresar los Kms recorridos y muestre las calorías totales gastadas
+
+INICIO
+
+1ºmostrar¨ingresar kilómetros recorridos(ingresar medida en km)
+2ºintroducir dato numerico
+3ºvariable ¨Kilometros recorridos¨
+4ºverificar Kilometros recorridos
+5º multiplicar 10 * Kilometros recorridos = Calorias gastadas totales
+6ºmostrar¨has gastado (calorías gastadas totales)¨
+
+FIN

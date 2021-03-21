@@ -1,0 +1,111 @@
+# Ejercicio 1 #
+
+1- inicio programa 
+2- inicia variable num
+3- imprime por pantalla "ingrese un numero"
+4- solicitar por teclado pedir num
+5- si num es mayor o igual a 10 - imprimir por pantalla "su numero es mayor o igual a 10" fin
+6- si no fin 
+
+# Ejercicio 2 #
+
+1- inicio programa 
+2- inicia variable velocidad
+3- imprime por pantalla "ingrese su velocidad"
+4- solicitar por teclado pedir velocidad
+5- si velocidad es mayor a 50 - imprimir por pantalla "usted excedio el maximo de velocidad " fin
+6- si no - imprimir por pantalla "usted no excedio el maximo de velocidad " fin
+
+# Ejercicio 3 #
+
+1- inicio programa 
+2- inicia variable resultado, num1, num2
+3- imprime por pantalla "ingrese el primer numero"
+4- solicitar por teclado num1 
+5- imprima por pantalla "ingrese la potencia" 
+6- solicitar por teclado num2 
+7- resultado = num1 potencia de num2 
+8- imprimir por pantalla "su resultado es ": resultado
+9- fin 
+
+# Ejercicio 4 #
+
+1- inicio programa 
+2- inicia variable temperatura
+3- imprime por pantalla " ingrese temperatura actual "
+4- solicitar por teclado pedir temperatura
+5- si temperatura es menor o igual a 0 - imprimir por pantalla "su agua se va a congelar" fin
+6- si no -imprimir por pantalla "su agua no se va a congelar" fin 
+
+# Ejercicio 5 #
+
+1- inicio programa 
+2- inicia variable edad
+3- imprime por pantalla " ingrese su edad "
+4- solicitar por teclado pedir edad
+5- si edad es igual a 21 - imprimir por pantalla "usted tiene la misma edad de pedro " fin
+6- si no -imprimir por pantalla "usted no tiene la misma edad de pedro " fin
+
+# Ejercicio 6 #
+
+1- inicio programa
+2- inicia variable diaCirculo,longCuadrado
+3- imprime por pantalla "ingrese diametro del circulo"
+4- solicitar por teclado diaCirculo
+5- imprime por pantalla "ingrese longitud de cuadrado"
+6- solicitar por teclado longCuadrado
+7- si diaCirculo es mayor o igual a longCuadrado - imprimir por pantalla "su circulo entra de manera integra" fin
+8- si no - imprimir por pantalla "su circulo no entra de manera integra" fin
+
+
+# Ejercicio 7 #
+
+1- inicio programa
+2- inicia variable nota1, nota2, nota3, promedio
+3- imprime por pantalla "ingrese primera nota"
+4- solicitar por teclado nota1
+5-imprime por pantalla "ingrese segunda nota"
+4- solicitar por teclado nota2
+6-imprime por pantalla "ingrese tercera nota"
+7- solicitar por teclado nota3
+8- promedio = nota1 + nota2 + nota3
+9- promedio = promedio/3
+10- si promedio es mayor o igual a 4 -imprime por pantalla "aprobo su asignatura con promedio ":promedio fin
+11- si no -imprimir por pantalla "usted no aprobo su asignatura, tuvo un promedio de ":promedio fin
+
+# Ejercicio 8 #
+
+01- inicio programa
+02- inicia variable ali, vest, entret, resta
+03- imprime por pantalla "ingrese su gasto en alimento"
+04- solicitar por teclado ali
+05- imprime por pantalla "ingrese su gasto en vestuario"
+04- solicitar por teclado vest
+06- imprime por pantalla "ingrese su gasto en entretencion"
+07- solicitar por teclado entret
+08- resta = 1000000 - ali - vest - entret
+09- si resta es mayor a 0 -imprime por pantalla "tus gatos fueron menores y te sobra ": resta fin
+10- si no -imprime por pantalla "tus gatos fueron mayores a tu ingreso mensual " fin
+
+# Ejercicio 9 #
+
+01- inicio programa
+02- inicia variable neto, viva, caliva
+03- imprime por pantalla "ingrese el monto total neto"
+04- solicitar por teclado neto
+05- imprime por pantalla "ingrese el valor del iva"
+04- solicitar por teclado viva
+06- caliva= neto*viva/100
+07- imprimir por pantalla "el valor del iva es " : caliva 
+08- fin
+
+
+# Ejercicio 10 #
+
+01- inicio programa
+02- inicia variable kcal,km
+03- imprime por pantalla "ingrese kilometros recorridos"
+04- solicitar por teclado km
+05- kcal= 10*km
+06- imprime por pantalla "el numero de calorias gastadas es " : kcal
+07- fin 

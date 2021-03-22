@@ -1,0 +1,124 @@
+/// Ejercicio n°1 ///
+inicio del programa
+print ("Ingresar numero: ");
+num = input()
+si num > 10:
+print ("El numero es mayor a 10")
+si num < 10:
+print ("El numero es menor a 10")
+si num = 10:
+print ("El numero es igual a 10")
+Fin
+
+/// Ejercicio n°2 ///
+inicio del programa
+print ("Ingresar velocidad del auto: ")
+v = input()
+si v > 50:
+print ("Supero la velocidad permitida (50KM)")
+si v < 50:
+print ("No supera la velocidad permitida (50KM)")
+si v = 50:
+print ("El automovil esta al limite de la velocidad permitida (50KM)")
+Fin
+
+/// Ejercicio n°3 ///
+inicio del programa
+print ("Ingrese primer numero: ")
+a = input()
+print ("ingrese segundo numero: ")
+b = input()
+potencia = a ** b
+print ("La potencia de ",a ,"elevado a ",b ," es: ",potencia)
+Fin
+
+/// Ejercicio n°4 ///
+inicio del programa
+print ("Ingresar temperatura actual del agua: ")
+temperatura = float(input())
+si temperatura > 0
+print ("El agua no se congelara")
+si temperatura < 0
+print ("El agua ya se encuentra congelada")
+si temperatura = 0
+print ("El agua se congelara")
+Fin
+
+/// Ejercicio n°5 ///
+inicio del programa
+definir edadpedro = 21
+print ("Ingresar la edad de una persona: ")
+edad = input()
+si edad > edadpedro
+print ("La edad de la persona es mayor a la de pedro")
+si edad < edadpedro
+print ("La edad de la persona es menor a la de pedro")
+si edad = edadpedro
+print ("La edad de la persona es igual a la de pedro")
+Fin
+
+/// Ejercicio n°6 ///
+inicio del programa
+print ("Ingresar diametro de un circulo: ")
+diametro = float(input())
+print ("Ingresar longitud de un cuadrado: ")
+longitud = float(input())
+si diametro > longitud
+print ("El circulo no puede ser contenido en el cuadrado")
+si diametro < longitud
+print ("El circulo puede ser contenido en el cuadrado")
+si diametro = longitud
+print ("El circulo es contenido de manera exacta dentro del cuadrado")
+Fin
+
+/// Ejercicio n°7 ///
+inicio del programa
+print ("Ingresar primera nota parcial: ")
+primera = float(input())
+print ("Ingresar segunda nota parcial: ")
+segunda = float(input())
+print ("Ingresar tercera nota parcial: ")
+tercera = float(input())
+promedio = (primera + segunda + tercera)/3
+si promedio es >= 4
+print ("El estudiante aprobo el ramo")
+sino 
+print ("El estudiante reprobo el ramo")
+Fin
+
+/// Ejercicio n°8 ///
+inicio del programa
+definir salario = 1000000
+print ("Ingrese gasto mensual en alimento: ")
+alimento = input()
+print ("Ingrese gasto mensual en vestuario: ")
+vestuario = input()
+print ("Ingrese gasto mensual en entretencion: ")
+entretención = input()
+gasto = alimento + vestuario + entretencion
+si gasto > salario
+print ("Los gastos fueron mayores al ingreso mensual")
+si gasto < salario
+print ("Los gastos fueron inferiores al ingreso mensual")
+si gasto = salario
+print ("Los gastos son iguales al ingreso mensual")
+Fin
+
+/// Ejercicio n°9 ///
+inicio del programa
+print ("Ingresar monto total neto de facturacion: ")
+facturacion = input()
+print ("Ingresar porcentaje del IVA: ")
+IVA = input()
+montofinal = (facturacion*(IVA+100))/100
+print ("El monto final con IVA de la facturacion es: ",montofinal)
+Fin
+
+/// Ejercicio n°10///
+inicio del programa
+calorias = 10
+print ("Ingrese cantidad de kilometros recorridos: ")
+k = input()
+total = calorias*k
+print ("El total de calorias gastadas es: ",total)
+Fin

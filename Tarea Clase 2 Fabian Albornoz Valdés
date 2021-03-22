@@ -1,0 +1,111 @@
+#Ejercicio 1
+print("Ingrese Valor")
+x=float(input())
+if x > 10:
+  print("El valor ingresado es mayor a 10")
+elif x < 10:
+  print("El valor ingresado es menor a 10")
+else:
+  print("El valor ingresado es igual a 10")
+
+#Ejercicio 2
+print("Ingrese la velocidad de un automovil")
+x=int(input())
+if x > 50:
+  print("La velocidad del automovil excede el limite de 50 km")
+elif x < 50:
+  print("La velocidad del automovil NO excede el limite de 50 km")
+else:
+  print("La velocidad del automovil va al limite de la velocidad maxima permitida de 50 km")
+
+#Ejercicio 3
+print("Ingrese Un Valor")
+x=float(input())
+print("Ingrese la potencia de ese valor")
+x1=int(input())
+p=x**x1
+print("El resultado de ",x," elevado a ",x1," es= ",p)
+
+#Ejercicio 4
+print("Ingrese la temperatura actual del agua")
+x=float(input("°C = "))
+if x >=5:
+  print("La temperatura del agua esta ",x,"°C sobre la temperatura de congelacion")
+elif x < 5 and x > 0:
+  print("El agua se encuentra a ",x,"°C, Esta muy Cerca del punto de congelacion")
+elif x <= 0:
+  print("El agua ya se encuentra Congelada")
+
+#Ejercicio 5
+print("Ingrese una Edad")
+x=int(input())
+if x==21:
+  print("La edad ingresada Es igual a la de Pedro")
+elif x>21:
+  x1=x-21
+  if x1==1:
+    print("La edad ingresada es",x1,"año mayor a la de pedro")
+  else:
+    print("La edad ingresada es",x1,"años mayor a la de pedro")
+elif x<21:
+    x1=21-x
+    if x1==1:
+      print("Pedro es",x1,"año mayor a la edad ingresada")
+    else:
+      print("Pedro es",x1,"años mayor a la edad ingresada")
+
+#Ejercicio 6
+print("Ingrese El diametro de un circulo")
+x=float(input())
+print("Ingrese la Longitud de un lado de un cuadrado")
+x1=float(input())
+if x<=x1:
+  print("☺ El circulo si cabe dentro del cuadrado ☺")
+elif x>x1:
+  print("El circulo NO cabe dentro del cuadrado")
+
+#Ejercicio 7
+print("Ingrese La primera nota")
+x=float(input())
+print("Ingrese La segunda nota")
+x1=float(input())
+print("Ingrese La tercera nota")
+x2=float(input())
+s=x+x1+x2
+p=s/3
+if p>=4:
+  print("El alumno aprueba la asignatura con un promedio",p)
+elif p<4:
+    print("El alumno NO aprueba la asignatura con un promedio",p)
+
+#Ejercicio 8
+print("Ingrese el monto total gastado en Alimento")
+x=int(input())
+print("Ingrese el monto total gastado en Vestuario")
+x1=int(input())
+print("Ingrese el monto total gastado en Entretencion")
+x2=int(input())
+s=x+x1+x2
+print("Gastos = $",s)
+if 1000000 > s:
+  print("Los Gastos de este mes fueron Menores a mi ingreso mensual")
+elif 1000000 < s:
+  print("Los Gastos de este mes fueron Mayores a mi ingreso mensual")
+elif 1000000 == s:
+  print("Los Gastos de este mes fueron Iguales a mi ingreso mensual")
+
+#Ejercicio 9
+print("Ingrese el monto total neto de facturacion de este mes")
+x=int(input())
+print("Ingrese el % de IVA")
+x1=int(input())
+i=(x*x1)/100
+ti=x+i
+print("El IVA de $",x,"es de $",i)
+print("El valor con IVA agregado es $",ti)
+
+#Ejercicio 10
+print("Ingrese La cantidad de kms recorridos")
+x=float(input())
+ct=10*x
+print("En total por los",x,"kms recorridos usted a gastado",ct," calorias")

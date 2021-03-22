@@ -1,0 +1,122 @@
+//Ejercicio 1
+Inicio
+Variables a
+Imprimir "Ingrese número a comparar"
+Leer a
+Si a>10 entonces
+Imprimir "Su número es mayor a 10"
+Fin
+Si a=10 entonces
+Imprimir "Su número es igual a 10"
+Fin
+Si a<10 entonces
+Imprimir "Su número es menor a 10"
+Fin
+
+//Ejercicio 2
+Inicio
+Variables a
+Imprimir "Ingrese la velocidad del auto"
+Leer a
+Si a>50
+Imprimir "El auto excedió el limite de velocidad"
+Fin
+
+//Ejercicio 3
+Inicio
+Variables a,b
+Imprimir "Ingrese la base de la potencia"
+Leer a
+Imprimir "Ingrese el exponente"
+Leer b
+c=a^b
+Imprimir "El resultado es: ",c
+Fin
+
+//Ejercicio 4
+Inicio
+Variables a
+Imprimir "Ingrese la temperatura actual"
+Leer a
+Si a<=0 entonces
+Imprimir "El agua se congelará"
+Sino
+Imprimir "El agua no se congelará"
+Fin
+
+//Ejercicio 5
+Inicio
+Variables a
+Imprimir "Ingrese la edad de una persona"
+Leer a
+Imprimir "La edad de Pedro es de 21 años"
+Si a=21 entonces
+Imprimir "La persona tiene la misma edad de Pedro"
+Fin
+
+//Ejercicio 6
+Inicio
+Variables a,b
+Imprimir "Ingrese el diámentro del círculo"
+Leer a
+Imprimir "Ingrese la longitud del cuadrado"
+Leer b
+Si a<=b entonces
+Imprimir "El círculo puede ser contenido en el cuadrado"
+Fin
+Sino
+Imprimir "El círculo no puede ser contenido en el cuadrado"
+Fin
+
+//Ejercicio 7
+Inicio
+Variables n1, n2, n3, prom
+Imprimir "Ingrese primera nota"
+Leer n1
+Imprimir "Ingrese segunda nota"
+Leer n2
+Imprimir "Ingrese tercera nota"
+Leer n3
+prom=(n1+n2+n3)/3
+Imprimir "El promedio del alumno es: ",prom
+Fin
+
+//Ejercicio 8
+Inicio
+Variables g1, g1, g3, gt, ing
+Imprimir "Ingrese ingreso mensual"
+Leer ing
+Imprimir "Ingrese el gasto mesual en alimentos"
+Leer g1
+Imprimir "Ingrese el gasto mesual en vestuario"
+Leer g2
+Imprimir "Ingrese el gasto mesual en entretención"
+Leer g3
+gt=g1+g2+g3
+Si ing<=gt entonces
+Imprimir "Su sueldo mensual es igual o menor que sus gastos"
+Fin
+Sino
+Imprimir "Su sueldo es mayor que sus gastos"
+Fin
+
+//Ejercicio 9
+Inicio
+Variables piva, iva, mon, monf
+Imprimir "Ingrese monto neto de facturación"
+Leer mon
+Imprimir "Ingrese porcentaje del iva"
+Leer piva
+iva=mon*piva/100
+monf=mon-iva
+Imprimir "El mono sin IVA es de; ",monf
+Fin
+
+//Ejercicio 10
+Inicio
+Variables km, cg
+Imprimir "Ingrese kilometros recorridos"
+Leer km
+cg=km*10
+Imprimir "El total de calorias gastadas es de: ",cg
+Fin
